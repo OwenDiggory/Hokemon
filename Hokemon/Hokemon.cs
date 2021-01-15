@@ -29,7 +29,7 @@ namespace Hokemon
 
         public void provide_name()
         {
-            Console.WriteLine("What is the name of your Hokemon? :");
+            Console.WriteLine("\nWhat is the name of your Hokemon? :");
             name = Console.ReadLine();
         }
 
