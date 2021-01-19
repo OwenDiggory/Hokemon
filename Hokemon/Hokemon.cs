@@ -57,5 +57,10 @@ namespace Hokemon
             defence = random_num_gen(10, 100);
 
         }
+
+        public void about()
+        {
+            Console.WriteLine("\nIm am a mystical species known as Hokemon");
+        }
     }
 }
