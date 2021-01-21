@@ -13,7 +13,7 @@ namespace Hokemon
 
         public void challenge_request(Hokemon contender)
         {
-            Console.WriteLine("{0}: Say's 'I want to ballte... Anyone willing to challenge me!?!?'", contender.Name);
+            Console.WriteLine("{0}: Say's 'I want to battle... Anyone willing to challenge me!?!?'", contender.Name);
             
         }
 
@@ -60,11 +60,11 @@ namespace Hokemon
 
             if (Attacker.Health > Defender.Health)
             {
-                Console.WriteLine(Attacker.Name + "IS THE WINNER");
+                Console.WriteLine(Attacker.Name + " IS THE WINNER");
             }
             else
             {
-                Console.WriteLine(Defender.Name +"IS THE WINNER");
+                Console.WriteLine(Defender.Name +" IS THE WINNER");
             }
 
         }
