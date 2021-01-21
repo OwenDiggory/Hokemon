@@ -29,15 +29,14 @@ namespace Hokemon
             hinstinct_hoke1.about();
             hystic_hoke1.about();
 
-
-
-            /*
             battle_arena arena1 = new battle_arena();// creating the object of the first arena
 
             arena1.challenge_request(hoke1);//argument hoke1 passed into the first arena
 
             arena1.accept_battle(hoke1, hoke2);
-            */
+
+            arena1.battle(hoke1, hoke2);
+            
         }
     }
 }

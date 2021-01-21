@@ -62,5 +62,21 @@ namespace Hokemon
         {
             Console.WriteLine("\nIm am a mystical species known as Hokemon");
         }
+
+        public int attack_calculator()
+        {
+            int attack_value;
+            attack_value = (attack + speed) * random_num_gen(0,2);
+
+            return attack_value;
+        }
+
+        public int defence_calculator()
+        {
+            int defence_value;
+            defence_value = (defence + speed) * random_num_gen(0, 2);
+
+            return defence_value;
+        }
     }
 }
