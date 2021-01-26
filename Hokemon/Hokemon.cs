@@ -66,7 +66,7 @@ namespace Hokemon
         public int attack_calculator()
         {
             int attack_value;
-            attack_value = (attack + speed) * random_num_gen(0,2);
+            attack_value = (attack + speed) * random_num_gen(1,2);
 
             return attack_value;
         }
@@ -74,7 +74,8 @@ namespace Hokemon
         public int defence_calculator()
         {
             int defence_value;
-            defence_value = (defence + speed) * random_num_gen(0, 2);
+            defence -= 5;
+            defence_value = (defence + speed) * random_num_gen(1, 2);
 
             return defence_value;
         }

@@ -37,6 +37,12 @@ namespace Hokemon
 
                 round += 1;
 
+                if (round > 40)
+                {
+                    Console.WriteLine("ITS A DRAW!!!!");
+                    break;
+                }
+
                 Console.WriteLine("\n\n-*-*-*-ROUND" + round + "-*-*-*-\n\n");
 
                 for(int i = 0; i < 2; i++)
